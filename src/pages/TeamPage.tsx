@@ -5,9 +5,9 @@ import { Mail, Phone } from "lucide-react";
 const TeamPage = () => {
   const teamMembers = [
     {
-      name: "Dr. Sophia Chen",
-      role: "Lead Podiatrist",
-      bio: "Dr. Chen has over 15 years of experience in podiatric medicine. She specializes in diabetic foot care and orthotic assessments.",
+      name: "Aline de Oliveira Alves",
+      role: "Podóloga",
+      bio: "Podóloga desde 2015 e é isso ai bla bla template ai po",
       qualifications: ["Doctor of Podiatric Medicine", "Board Certified in Foot Surgery", "Member of the American Podiatric Medical Association"],
       specialties: ["Diabetic Foot Care", "Sports Injuries", "Orthotic Therapy"],
       image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=600"
@@ -57,9 +57,9 @@ const TeamPage = () => {
   return (
     <div className="container-custom py-12 animate-fade-in">
       <div className="text-center mb-12">
-        <h1 className="text-4xl font-bold mb-4 text-foreground">Our Team</h1>
+        <h1 className="text-4xl font-bold mb-4 text-foreground">Nosso time</h1>
         <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-          Meet our dedicated team of professionals committed to providing exceptional care and service.
+        Conheça nossa equipe dedicada de profissionais comprometidos em oferecer atendimento e serviço excepcionais.
         </p>
       </div>
 
@@ -80,7 +80,7 @@ const TeamPage = () => {
               <p className="text-muted-foreground mb-4">{member.bio}</p>
               
               <div className="mb-4">
-                <h3 className="text-sm font-bold uppercase tracking-wider mb-2 text-foreground/70">Qualifications</h3>
+                <h3 className="text-sm font-bold uppercase tracking-wider mb-2 text-foreground/70">Qualificações</h3>
                 <ul className="text-sm text-muted-foreground space-y-1">
                   {member.qualifications.map((qual, i) => (
                     <li key={i}>{qual}</li>
@@ -89,7 +89,7 @@ const TeamPage = () => {
               </div>
               
               <div>
-                <h3 className="text-sm font-bold uppercase tracking-wider mb-2 text-foreground/70">Specialties</h3>
+                <h3 className="text-sm font-bold uppercase tracking-wider mb-2 text-foreground/70">Especialidades</h3>
                 <ul className="text-sm text-muted-foreground space-y-1">
                   {member.specialties.map((specialty, i) => (
                     <li key={i}>{specialty}</li>
@@ -100,11 +100,11 @@ const TeamPage = () => {
               <div className="mt-4 pt-4 border-t border-border flex items-center justify-between">
                 <div className="flex items-center text-sm text-muted-foreground">
                   <Mail className="h-4 w-4 mr-1" />
-                  <span>Contact</span>
+                  <span>Contato</span>
                 </div>
                 <div className="flex items-center text-sm text-muted-foreground">
                   <Phone className="h-4 w-4 mr-1" />
-                  <span>Schedule</span>
+                  <span>Agenda</span>
                 </div>
               </div>
             </CardContent>

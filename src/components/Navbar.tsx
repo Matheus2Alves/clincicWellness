@@ -6,11 +6,11 @@ import { ThemeToggle } from "./ThemeToggle";
 import { cn } from "@/lib/utils";
 
 const navigation = [
-  { name: "Home", href: "/" },
-  { name: "Services", href: "/services" },
-  { name: "About Us", href: "/about" },
-  { name: "Team", href: "/team" },
-  { name: "Contact", href: "/contact" },
+  { name: "Página principal", href: "/" },
+  { name: "Serviços", href: "/services" },
+  { name: "Sobre nós", href: "/about" },
+  { name: "Time", href: "/team" },
+  { name: "Contato", href: "/contact" },
 ];
 
 const Navbar = () => {
@@ -22,7 +22,7 @@ const Navbar = () => {
       <nav className="container-custom flex h-16 items-center justify-between">
         <div className="flex lg:flex-1">
           <Link to="/" className="-m-1.5 p-1.5">
-            <span className="font-montserrat text-xl font-bold text-secondary">Wellness Haven</span>
+            <span className="font-montserrat text-xl font-bold text-secondary">Espaço Aline Alves</span>
           </Link>
         </div>
         
@@ -32,7 +32,7 @@ const Navbar = () => {
             className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-foreground"
             onClick={() => setMobileMenuOpen(true)}
           >
-            <span className="sr-only">Open main menu</span>
+            <span className="sr-only">Abrir menu principal</span>
             <Menu className="h-6 w-6" aria-hidden="true" />
           </button>
         </div>
@@ -64,14 +64,14 @@ const Navbar = () => {
             <div className="fixed inset-y-0 right-0 z-50 w-full bg-background px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-foreground/10">
               <div className="flex items-center justify-between">
                 <Link to="/" className="-m-1.5 p-1.5">
-                  <span className="font-montserrat text-xl font-bold text-secondary">Wellness Haven</span>
+                  <span className="font-montserrat text-xl font-bold text-secondary">Espaço Aline Alves</span>
                 </Link>
                 <button
                   type="button"
                   className="-m-2.5 rounded-md p-2.5 text-foreground"
                   onClick={() => setMobileMenuOpen(false)}
                 >
-                  <span className="sr-only">Close menu</span>
+                  <span className="sr-only">Fechar menu</span>
                   <X className="h-6 w-6" aria-hidden="true" />
                 </button>
               </div>
@@ -96,7 +96,7 @@ const Navbar = () => {
                   </div>
                   <div className="py-6 flex items-center">
                     <ThemeToggle />
-                    <span className="ml-2 text-sm">Toggle theme</span>
+                    <span className="ml-2 text-sm">Trocar tema</span>
                   </div>
                 </div>
               </div>

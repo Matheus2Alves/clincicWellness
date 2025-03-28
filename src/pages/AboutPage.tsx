@@ -5,19 +5,19 @@ import { Heart, Award, Users } from "lucide-react";
 const AboutPage = () => {
   const testimonials = [
     {
-      quote: "The team at Wellness Haven truly changed my life. Their holistic approach to foot care helped me resolve issues I've had for years.",
-      author: "Sarah Johnson",
-      role: "Client since 2020"
+      quote: "A equipe do Espaço Aline Alves realmente mudou minha vida. Sua abordagem holística para o cuidado dos pés me ajudou a resolver problemas que eu tinha há anos.",
+      author: "Batata",
+      role: "Cliente desde 2019"
     },
     {
-      quote: "I've never experienced such attentive and personalized care. The nail treatments here are not just about beauty – they focus on health too.",
-      author: "Michael Chen",
-      role: "Client since 2021"
+      quote: "A equipe do Espaço Aline Alves realmente mudou minha vida. Sua abordagem holística para o cuidado dos pés me ajudou a resolver problemas que eu tinha há anos.",
+      author: "Michael",
+      role: "Cliente desde 2021"
     },
     {
-      quote: "The eyelash extensions I received were perfect for my needs. The technician took the time to understand exactly what I wanted.",
-      author: "Emma Rodriguez",
-      role: "Client since 2019"
+      quote: "A equipe do Espaço Aline Alves realmente mudou minha vida. Sua abordagem holística para o cuidado dos pés me ajudou a resolver problemas que eu tinha há anos.",
+      author: "Emmanuel",
+      role: "Cliente desde 2019"
     }
   ];
 
@@ -28,9 +28,9 @@ const AboutPage = () => {
         <div className="relative h-[50vh] bg-gradient-to-r from-wellness-teal/30 to-wellness-green/30 flex items-center">
           <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1551228813-1b53eba36442?q=80&w=1920')] bg-cover bg-center opacity-20"></div>
           <div className="container-custom relative z-10">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">About Us</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">Sobre nós</h1>
             <p className="text-lg md:text-xl max-w-2xl text-foreground/80">
-              Learn about our mission, values, and commitment to your wellness journey.
+            Saiba mais sobre nossa missão, valores e comprometimento com sua jornada de bem-estar.
             </p>
           </div>
         </div>
@@ -40,33 +40,33 @@ const AboutPage = () => {
       <section className="py-16 bg-background">
         <div className="container-custom">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-6 text-foreground">Our Mission</h2>
+            <h2 className="text-3xl font-bold mb-6 text-foreground">Nossa missão</h2>
             <p className="text-lg text-muted-foreground mb-8">
-              At Wellness Haven, our mission is to provide exceptional, holistic wellness services that improve our clients' quality of life. We believe in treating the whole person—not just symptoms—and empowering individuals to take an active role in their well-being.
+            No Espaço Aline Alves, nossa missão é fornecer serviços de bem-estar excepcionais e holísticos que melhorem a qualidade de vida dos nossos clientes. Acreditamos em tratar a pessoa como um todo — não apenas os sintomas — e em capacitar os indivíduos a assumir um papel ativo em seu bem-estar.
             </p>
             <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="flex flex-col items-center text-center">
                 <div className="w-16 h-16 rounded-full bg-wellness-teal/20 flex items-center justify-center mb-4">
                   <Heart className="h-8 w-8 text-wellness-green" />
                 </div>
-                <h3 className="text-xl font-bold mb-2">Compassionate Care</h3>
-                <p className="text-muted-foreground">We treat every client with empathy, respect, and personalized attention.</p>
+                <h3 className="text-xl font-bold mb-2">Cuidado Compassivo</h3>
+                <p className="text-muted-foreground">Tratamos cada cliente com empatia, respeito e atenção personalizada.</p>
               </div>
               
               <div className="flex flex-col items-center text-center">
                 <div className="w-16 h-16 rounded-full bg-wellness-teal/20 flex items-center justify-center mb-4">
                   <Award className="h-8 w-8 text-wellness-green" />
                 </div>
-                <h3 className="text-xl font-bold mb-2">Excellence</h3>
-                <p className="text-muted-foreground">We maintain the highest standards in all our services and continuously improve our skills.</p>
+                <h3 className="text-xl font-bold mb-2">Excelência</h3>
+                <p className="text-muted-foreground">Mantemos os mais altos padrões em todos os nossos serviços e melhoramos continuamente nossas habilidades.</p>
               </div>
               
               <div className="flex flex-col items-center text-center">
                 <div className="w-16 h-16 rounded-full bg-wellness-teal/20 flex items-center justify-center mb-4">
                   <Users className="h-8 w-8 text-wellness-green" />
                 </div>
-                <h3 className="text-xl font-bold mb-2">Community</h3>
-                <p className="text-muted-foreground">We value building lasting relationships with our clients and the broader community.</p>
+                <h3 className="text-xl font-bold mb-2">Comunidade</h3>
+                <p className="text-muted-foreground">Valorizamos a construção de relacionamentos duradouros com nossos clientes e a comunidade em geral.</p>
               </div>
             </div>
           </div>
@@ -78,15 +78,15 @@ const AboutPage = () => {
         <div className="container-custom">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold mb-6 text-foreground">Our History</h2>
+              <h2 className="text-3xl font-bold mb-6 text-foreground">Nossa história</h2>
               <p className="text-muted-foreground mb-4">
-                Wellness Haven Clinic was founded in 2015 by a group of healthcare professionals who shared a vision of creating a wellness center that addresses multiple aspects of personal health and beauty.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo atque esse, aut voluptatibus consequatur autem quis ipsum eligendi laboriosam fugit, corrupti incidunt necessitatibus quia quo ex, maxime animi explicabo possimus.
               </p>
               <p className="text-muted-foreground mb-4">
-                What began as a small clinic with just three practitioners has grown into a comprehensive wellness center with a team of specialized professionals. Throughout our growth, we've maintained our commitment to personalized care and holistic approaches.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi sed esse unde molestias dolores vel modi quos obcaecati id nesciunt iste similique sapiente, veniam quibusdam, consectetur consequatur ullam quis ipsum?
               </p>
               <p className="text-muted-foreground">
-                Today, we're proud to be a trusted destination for podiatry, nail care, and eyelash services, known for our expertise, friendly atmosphere, and dedication to our clients' well-being.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quas beatae, dolor quam magnam vero obcaecati illum, doloremque voluptas nemo quia, aliquam ducimus atque! Similique culpa numquam ex optio eaque.
               </p>
             </div>
             <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl">
@@ -99,32 +99,32 @@ const AboutPage = () => {
       {/* Values Section */}
       <section className="py-16 bg-background">
         <div className="container-custom">
-          <h2 className="text-3xl font-bold mb-12 text-center text-foreground">Our Core Values</h2>
+          <h2 className="text-3xl font-bold mb-12 text-center text-foreground">Nossos principais valores</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                title: "Integrity",
-                description: "We act with honesty and adhere to the highest ethical standards in all our practices."
+                title: "Integridade",
+                description: "Agimos com honestidade e aderimos aos mais altos padrões éticos em todas as nossas práticas."
               },
               {
-                title: "Client-Centered",
-                description: "We put our clients' needs first, creating personalized experiences and solutions."
+                title: "Integridade",
+                description: "Agimos com honestidade e aderimos aos mais altos padrões éticos em todas as nossas práticas."
               },
               {
-                title: "Education",
-                description: "We believe in empowering our clients through education about their health and self-care."
+                title: "Integridade",
+                description: "Agimos com honestidade e aderimos aos mais altos padrões éticos em todas as nossas práticas.."
               },
               {
-                title: "Innovation",
-                description: "We stay at the forefront of wellness practices, continuously learning and improving."
+                title: "Integridade",
+                description: "Agimos com honestidade e aderimos aos mais altos padrões éticos em todas as nossas práticas."
               },
               {
-                title: "Inclusivity",
-                description: "We create a welcoming environment where everyone feels respected and valued."
+                title: "Integridade",
+                description: "Agimos com honestidade e aderimos aos mais altos padrões éticos em todas as nossas práticas."
               },
               {
-                title: "Balance",
-                description: "We promote harmony between physical health, mental well-being, and aesthetic goals."
+                title: "Integridade",
+                description: "Agimos com honestidade e aderimos aos mais altos padrões éticos em todas as nossas práticas."
               }
             ].map((value, index) => (
               <Card key={index} className="border-wellness-teal/30">
@@ -141,7 +141,7 @@ const AboutPage = () => {
       {/* Testimonials Section */}
       <section className="py-16 bg-wellness-green text-white">
         <div className="container-custom">
-          <h2 className="text-3xl font-bold mb-12 text-center">What Our Clients Say</h2>
+          <h2 className="text-3xl font-bold mb-12 text-center">O que nossos clintes dizem</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {testimonials.map((testimonial, index) => (
               <div key={index} className="bg-white/10 backdrop-blur-lg p-6 rounded-lg">
@@ -159,9 +159,9 @@ const AboutPage = () => {
       {/* Certifications Section */}
       <section className="py-16 bg-background">
         <div className="container-custom text-center">
-          <h2 className="text-3xl font-bold mb-6 text-foreground">Our Certifications</h2>
+          <h2 className="text-3xl font-bold mb-6 text-foreground">Nossas certificações</h2>
           <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto">
-            We maintain the highest standards of practice through ongoing education and professional certifications.
+            Mantemos os mais altos padrões de prática por meio de educação contínua e certificações profissionais.
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {[

@@ -7,51 +7,51 @@ const ServicesPage = () => {
   return (
     <div className="container-custom py-12 animate-fade-in">
       <div className="text-center mb-12">
-        <h1 className="text-4xl font-bold mb-4 text-foreground">Our Services</h1>
+        <h1 className="text-4xl font-bold mb-4 text-foreground">Nosso serviços</h1>
         <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-          Discover our comprehensive range of wellness services designed to enhance your health and well-being.
+         Descubra nossa ampla gama de serviços de bem-estar projetados para melhorar sua saúde e bem-estar.
         </p>
       </div>
 
       <Tabs defaultValue="podiatry" className="w-full max-w-4xl mx-auto">
         <TabsList className="grid w-full grid-cols-3 mb-8">
-          <TabsTrigger value="podiatry">Podiatry</TabsTrigger>
-          <TabsTrigger value="nail">Nail Care</TabsTrigger>
-          <TabsTrigger value="eyelash">Eyelash</TabsTrigger>
+          <TabsTrigger value="podiatry">Podologia</TabsTrigger>
+          <TabsTrigger value="nail">Cuidado com as unhas</TabsTrigger>
+          <TabsTrigger value="eyelash">Serviço de cílios</TabsTrigger>
         </TabsList>
         
         {/* Podiatry Services */}
         <TabsContent value="podiatry">
           <div className="grid gap-8">
             <div className="bg-muted rounded-lg p-6 md:p-8">
-              <h2 className="text-2xl font-bold mb-6 text-foreground">Podiatry Services</h2>
+              <h2 className="text-2xl font-bold mb-6 text-foreground">Podologia</h2>
               <p className="text-muted-foreground mb-8">
-                Our specialized podiatry services focus on diagnosing, treating, and preventing disorders of the foot and ankle.
+              Nossos serviços especializados de podologia se concentram no diagnóstico, tratamento e prevenção de distúrbios do pé e do tornozelo.
               </p>
               
               <div className="grid gap-6 md:grid-cols-2">
                 <Card>
                   <CardHeader>
-                    <CardTitle>Foot Care Treatments</CardTitle>
-                    <CardDescription>Comprehensive solutions for foot health</CardDescription>
+                    <CardTitle>Tratamentos de cuidados com os pés</CardTitle>
+                    <CardDescription>Soluções completas para a saúde dos pés</CardDescription>
                   </CardHeader>
                   <CardContent>
                     <ul className="space-y-2">
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-wellness-green shrink-0 mt-0.5" />
-                        <span>Diabetic foot assessments</span>
+                        <span>Avaliações do pé diabético</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-wellness-green shrink-0 mt-0.5" />
-                        <span>Treatment for foot injuries</span>
+                        <span>Tratamento para lesões nos pés</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-wellness-green shrink-0 mt-0.5" />
-                        <span>Fungal nail treatments</span>
+                        <span>Tratamentos para fungos nas unhas</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-wellness-green shrink-0 mt-0.5" />
-                        <span>Corn and callus removal</span>
+                        <span>Remoção de calos e calosidades</span>
                       </li>
                     </ul>
                   </CardContent>
@@ -59,26 +59,26 @@ const ServicesPage = () => {
                 
                 <Card>
                   <CardHeader>
-                    <CardTitle>Orthotic Assessments</CardTitle>
-                    <CardDescription>Custom solutions for optimal foot function</CardDescription>
+                    <CardTitle>Avaliações Ortopédicas</CardTitle>
+                    <CardDescription>Soluções personalizadas para uma função ideal do pé</CardDescription>
                   </CardHeader>
                   <CardContent>
                     <ul className="space-y-2">
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-wellness-green shrink-0 mt-0.5" />
-                        <span>Biomechanical assessments</span>
+                        <span>Avaliações biomecânicas</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-wellness-green shrink-0 mt-0.5" />
-                        <span>Custom orthotics</span>
+                        <span>Órteses personalizadas</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-wellness-green shrink-0 mt-0.5" />
-                        <span>Gait analysis</span>
+                        <span>Análise da marcha</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-wellness-green shrink-0 mt-0.5" />
-                        <span>Footwear recommendations</span>
+                        <span>Recomendações de calçados</span>
                       </li>
                     </ul>
                   </CardContent>
@@ -86,12 +86,12 @@ const ServicesPage = () => {
                 
                 <Card className="md:col-span-2">
                   <CardHeader>
-                    <CardTitle>Nail Health Consultations</CardTitle>
-                    <CardDescription>Expert care for healthy nails</CardDescription>
+                    <CardTitle>Consultas de saúde das unhas</CardTitle>
+                    <CardDescription>cuidados especializados para unhas saudáveis</CardDescription>
                   </CardHeader>
                   <CardContent>
                     <p className="mb-4">
-                      Our nail health consultations provide comprehensive assessment and personalized care plans to address various nail conditions and promote overall nail health.
+                    Nossas consultas sobre saúde das unhas oferecem avaliações abrangentes e planos de cuidados personalizados para tratar diversas condições das unhas e promover a saúde geral delas.
                     </p>
                     <ul className="space-y-2 grid md:grid-cols-2 gap-2">
                       <li className="flex items-start gap-2">
@@ -122,16 +122,16 @@ const ServicesPage = () => {
         <TabsContent value="nail">
           <div className="grid gap-8">
             <div className="bg-muted rounded-lg p-6 md:p-8">
-              <h2 className="text-2xl font-bold mb-6 text-foreground">Nail Care Services</h2>
+              <h2 className="text-2xl font-bold mb-6 text-foreground">Serviços de cuidados com as unhas</h2>
               <p className="text-muted-foreground mb-8">
-                Our nail care services combine aesthetic beauty with health-focused treatments to ensure your nails look and feel their best.
+              Nossos serviços de cuidados com as unhas combinam beleza estética com tratamentos focados na saúde para garantir que suas unhas tenham a melhor aparência e toque possível.
               </p>
               
               <div className="grid gap-6 md:grid-cols-2">
                 <Card>
                   <CardHeader>
                     <CardTitle>Manicures</CardTitle>
-                    <CardDescription>Premium hand and nail care</CardDescription>
+                    <CardDescription>Cuidados premium para mãos e unhas</CardDescription>
                   </CardHeader>
                   <CardContent>
                     <ul className="space-y-2">
@@ -157,8 +157,8 @@ const ServicesPage = () => {
                 
                 <Card>
                   <CardHeader>
-                    <CardTitle>Nail Treatments</CardTitle>
-                    <CardDescription>Therapeutic solutions for nail health</CardDescription>
+                    <CardTitle>Tratamentos para unhas</CardTitle>
+                    <CardDescription>Soluções terapêuticas para a saúde das unhas</CardDescription>
                   </CardHeader>
                   <CardContent>
                     <ul className="space-y-2">
@@ -184,12 +184,12 @@ const ServicesPage = () => {
                 
                 <Card className="md:col-span-2">
                   <CardHeader>
-                    <CardTitle>Nail Health Consultations</CardTitle>
-                    <CardDescription>Expert advice for optimal nail care</CardDescription>
+                    <CardTitle>Consultas de saúde das unhas</CardTitle>
+                    <CardDescription>Conselhos de especialistas para o cuidado ideal das unhas</CardDescription>
                   </CardHeader>
                   <CardContent>
                     <p className="mb-4">
-                      Our nail health consultations provide personalized advice and treatment plans to address your specific nail concerns and promote long-term nail health.
+                    Nossas consultas sobre saúde das unhas oferecem aconselhamento personalizado e planos de tratamento para abordar suas preocupações específicas com as unhas e promover a saúde das unhas a longo prazo.
                     </p>
                     <ul className="space-y-2 grid md:grid-cols-2 gap-2">
                       <li className="flex items-start gap-2">
@@ -220,9 +220,9 @@ const ServicesPage = () => {
         <TabsContent value="eyelash">
           <div className="grid gap-8">
             <div className="bg-muted rounded-lg p-6 md:p-8">
-              <h2 className="text-2xl font-bold mb-6 text-foreground">Eyelash Services</h2>
+              <h2 className="text-2xl font-bold mb-6 text-foreground">Serviços de cílios</h2>
               <p className="text-muted-foreground mb-8">
-                Enhance your natural beauty with our premium eyelash services, designed to accentuate your eyes and simplify your beauty routine.
+              Realce sua beleza natural com nossos serviços premium de cílios, projetados para acentuar seus olhos e simplificar sua rotina de beleza.
               </p>
               
               <div className="grid gap-6 md:grid-cols-2">

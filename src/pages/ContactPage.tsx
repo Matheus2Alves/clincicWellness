@@ -30,8 +30,8 @@ const ContactPage = () => {
     // Simulate form submission
     setTimeout(() => {
       toast({
-        title: "Inquiry Sent",
-        description: "Thank you for your message. We'll respond shortly.",
+        title: "Enviado",
+        description: "Obrigado por nos enviar uma mensagem",
       });
       setFormData({
         name: "",
@@ -50,9 +50,9 @@ const ContactPage = () => {
         <div className="relative h-[40vh] bg-gradient-to-r from-wellness-teal/30 to-wellness-green/30 flex items-center">
           <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=1920')] bg-cover bg-center opacity-20"></div>
           <div className="container-custom relative z-10">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">Contact & Location</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">Contato e localização</h1>
             <p className="text-lg md:text-xl max-w-2xl text-foreground/80">
-              Get in touch with us or visit our clinic. We're here to help you on your wellness journey.
+            Entre em contato conosco ou visite nossa clínica. Estamos aqui para ajudar você em sua jornada de bem-estar.
             </p>
           </div>
         </div>
@@ -63,7 +63,7 @@ const ContactPage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Information */}
             <div>
-              <h2 className="text-3xl font-bold mb-8 text-foreground">Get In Touch</h2>
+              <h2 className="text-3xl font-bold mb-8 text-foreground">Entre em contato</h2>
               
               <div className="grid gap-8">
                 <Card>
@@ -73,10 +73,10 @@ const ContactPage = () => {
                         <MapPin className="h-6 w-6 text-wellness-green" />
                       </div>
                       <div>
-                        <h3 className="font-bold mb-1">Our Location</h3>
-                        <p className="text-muted-foreground">123 Wellness Street</p>
-                        <p className="text-muted-foreground">Cityville, State 12345</p>
-                        <p className="text-muted-foreground">United States</p>
+                        <h3 className="font-bold mb-1">Nossa localização</h3>
+                        <p className="text-muted-foreground">Avenida Padre Anchieta, 176 - sala 1</p>
+                        <p className="text-muted-foreground">Jordanópolis, São Bernarndo do Campo - SP</p>
+                        <p className="text-muted-foreground">Brasil</p>
                       </div>
                     </div>
                   </CardContent>
@@ -89,9 +89,9 @@ const ContactPage = () => {
                         <Phone className="h-6 w-6 text-wellness-green" />
                       </div>
                       <div>
-                        <h3 className="font-bold mb-1">Phone</h3>
-                        <p className="text-muted-foreground">+1 (123) 456-7890</p>
-                        <p className="text-muted-foreground">+1 (123) 456-7891</p>
+                        <h3 className="font-bold mb-1">Telefone</h3>
+                        <p className="text-muted-foreground">+5511444444444</p>
+                        <p className="text-muted-foreground">+5511949494444</p>
                       </div>
                     </div>
                   </CardContent>
@@ -105,8 +105,8 @@ const ContactPage = () => {
                       </div>
                       <div>
                         <h3 className="font-bold mb-1">Email</h3>
-                        <p className="text-muted-foreground">contact@wellnesshaven.com</p>
-                        <p className="text-muted-foreground">info@wellnesshaven.com</p>
+                        <p className="text-muted-foreground">seu@emailaqui</p>
+                        <p className="text-muted-foreground">seu@emailaqui</p>
                       </div>
                     </div>
                   </CardContent>
@@ -119,7 +119,7 @@ const ContactPage = () => {
                         <Clock className="h-6 w-6 text-wellness-green" />
                       </div>
                       <div>
-                        <h3 className="font-bold mb-1">Operating Hours</h3>
+                        <h3 className="font-bold mb-1">Horário de funcionamento</h3>
                         <p className="text-muted-foreground">Monday - Friday: 9AM - 7PM</p>
                         <p className="text-muted-foreground">Saturday: 9AM - 5PM</p>
                         <p className="text-muted-foreground">Sunday: Closed</p>
@@ -132,55 +132,55 @@ const ContactPage = () => {
             
             {/* Contact Form */}
             <div>
-              <h2 className="text-3xl font-bold mb-8 text-foreground">Send Us a Message</h2>
+              <h2 className="text-3xl font-bold mb-8 text-foreground">Nos envie uma mensagem</h2>
               
               <Card>
                 <CardContent className="p-6">
                   <form onSubmit={handleSubmit} className="space-y-6">
                     <div className="space-y-2">
-                      <Label htmlFor="name">Your Name</Label>
+                      <Label htmlFor="name">Seu nome</Label>
                       <Input 
                         id="name" 
                         name="name" 
                         value={formData.name} 
                         onChange={handleChange} 
-                        placeholder="Enter your name" 
+                        placeholder="Insira seu nome" 
                         required 
                       />
                     </div>
                     
                     <div className="space-y-2">
-                      <Label htmlFor="email">Email Address</Label>
+                      <Label htmlFor="email">Endereço de E-mail</Label>
                       <Input 
                         id="email" 
                         name="email" 
                         type="email" 
                         value={formData.email} 
                         onChange={handleChange} 
-                        placeholder="Enter your email" 
+                        placeholder="Insira seu email" 
                         required 
                       />
                     </div>
                     
                     <div className="space-y-2">
-                      <Label htmlFor="phone">Phone Number</Label>
+                      <Label htmlFor="phone">Número</Label>
                       <Input 
                         id="phone" 
                         name="phone" 
                         value={formData.phone} 
                         onChange={handleChange} 
-                        placeholder="Enter your phone number" 
+                        placeholder="Insira seu número" 
                       />
                     </div>
                     
                     <div className="space-y-2">
-                      <Label htmlFor="message">Your Message</Label>
+                      <Label htmlFor="message">Sua mensagem</Label>
                       <Textarea 
                         id="message" 
                         name="message" 
                         value={formData.message} 
                         onChange={handleChange} 
-                        placeholder="How can we help you?" 
+                        placeholder="Como posso te ajudar ?" 
                         rows={5} 
                         required 
                       />
@@ -191,11 +191,11 @@ const ContactPage = () => {
                       className="w-full bg-wellness-green hover:bg-wellness-green/90 text-white" 
                       disabled={isSubmitting}
                     >
-                      {isSubmitting ? "Sending..." : "Send Message"}
+                      {isSubmitting ? "Enviando.." : "Mensagem enviada"}
                     </Button>
                     
                     <p className="text-xs text-muted-foreground text-center">
-                      This form is for general inquiries only, not for booking appointments.
+                    Este formulário é apenas para consultas gerais, não para agendamento de consultas.
                     </p>
                   </form>
                 </CardContent>
@@ -208,16 +208,16 @@ const ContactPage = () => {
       {/* Map Section */}
       <section className="py-12 bg-muted">
         <div className="container-custom">
-          <h2 className="text-3xl font-bold mb-8 text-center text-foreground">Find Us</h2>
+          <h2 className="text-3xl font-bold mb-8 text-center text-foreground">Onde estamos</h2>
           <div className="rounded-lg overflow-hidden h-[400px] shadow-lg">
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.9663095343008!2d-74.00425872447971!3d40.71926084516649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQzJzA5LjMiTiA3NMKwMDAnMDcuOSJX!5e0!3m2!1sen!2sus!4v1621521090750!5m2!1sen!2sus" 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4538.671873050489!2d-46.57178582384966!3d-23.684053678715735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4366a6037f7b%3A0x851e99099862775!2sEspa%C3%A7o%20Aline%20Alves%20%7C%20Podologia!5e1!3m2!1sen!2sbr!4v1743195460219!5m2!1sen!2sbr" 
               width="100%" 
               height="100%" 
               style={{ border: 0 }} 
               allowFullScreen={true} 
-              loading="lazy"
-              title="Wellness Haven Location"
+              loading="preguiça"
+              title="Espaço Aline Alves"
             ></iframe>
           </div>
         </div>

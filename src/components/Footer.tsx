@@ -8,9 +8,9 @@ const Footer = () => {
       <div className="container-custom">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-lg font-bold mb-4">Wellness Haven</h3>
+            <h3 className="text-lg font-bold mb-4">Espaço Aline Alves</h3>
             <p className="text-sm text-muted-foreground mb-4">
-              Your sanctuary for holistic wellness and rejuvenation.
+            Seu santuário para bem-estar holístico e rejuvenescimento.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-foreground hover:text-primary">
@@ -29,55 +29,55 @@ const Footer = () => {
           </div>
           
           <div>
-            <h3 className="text-lg font-bold mb-4">Quick Links</h3>
+            <h3 className="text-lg font-bold mb-4">Links rápidos</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/" className="text-sm text-muted-foreground hover:text-primary">Home</Link>
+                <Link to="/" className="text-sm text-muted-foreground hover:text-primary">Página inicial</Link>
               </li>
               <li>
-                <Link to="/services" className="text-sm text-muted-foreground hover:text-primary">Services</Link>
+                <Link to="/services" className="text-sm text-muted-foreground hover:text-primary">Serviços</Link>
               </li>
               <li>
-                <Link to="/about" className="text-sm text-muted-foreground hover:text-primary">About Us</Link>
+                <Link to="/about" className="text-sm text-muted-foreground hover:text-primary">Sobre nós</Link>
               </li>
               <li>
-                <Link to="/team" className="text-sm text-muted-foreground hover:text-primary">Team</Link>
+                <Link to="/team" className="text-sm text-muted-foreground hover:text-primary">Time</Link>
               </li>
               <li>
-                <Link to="/contact" className="text-sm text-muted-foreground hover:text-primary">Contact</Link>
+                <Link to="/contact" className="text-sm text-muted-foreground hover:text-primary">Contato</Link>
               </li>
             </ul>
           </div>
           
           <div>
-            <h3 className="text-lg font-bold mb-4">Services</h3>
+            <h3 className="text-lg font-bold mb-4">Serviços</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/services" className="text-sm text-muted-foreground hover:text-primary">Podiatry Services</Link>
+                <Link to="/services" className="text-sm text-muted-foreground hover:text-primary">Podologia</Link>
               </li>
               <li>
-                <Link to="/services" className="text-sm text-muted-foreground hover:text-primary">Nail Care</Link>
+                <Link to="/services" className="text-sm text-muted-foreground hover:text-primary">Cuidado com as unhas</Link>
               </li>
               <li>
-                <Link to="/services" className="text-sm text-muted-foreground hover:text-primary">Eyelash Services</Link>
+                <Link to="/services" className="text-sm text-muted-foreground hover:text-primary">Serviço de cílios</Link>
               </li>
             </ul>
           </div>
           
           <div>
-            <h3 className="text-lg font-bold mb-4">Contact Info</h3>
+            <h3 className="text-lg font-bold mb-4">Informações de contato</h3>
             <ul className="space-y-2">
               <li className="flex items-start space-x-2">
                 <MapPin className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                <span className="text-sm text-muted-foreground">123 Wellness Street, City, Country</span>
+                <span className="text-sm text-muted-foreground">176 Av.Padre Anchieta, São Bernardo do Campo, São Paulo</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Phone className="h-5 w-5 text-primary shrink-0" />
-                <span className="text-sm text-muted-foreground">+1 (123) 456-7890</span>
+                <span className="text-sm text-muted-foreground">+1155111111111</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Mail className="h-5 w-5 text-primary shrink-0" />
-                <span className="text-sm text-muted-foreground">contact@wellnesshaven.com</span>
+                <span className="text-sm text-muted-foreground">contact@seuemailaqui</span>
               </li>
               <li className="flex items-start space-x-2">
                 <Clock className="h-5 w-5 text-primary shrink-0 mt-0.5" />
@@ -89,7 +89,7 @@ const Footer = () => {
         
         <div className="mt-10 border-t pt-8 text-center">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Wellness Haven Clinic. All rights reserved.
+            © {new Date().getFullYear()} Espaço Aline Alves. Todos os direitos reservados
           </p>
         </div>
       </div>
